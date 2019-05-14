@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXRadioButton?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ToggleGroup?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="570.0" prefWidth="820.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="InterfacesGraficas.RepuestosFXController">
+   <children>
+      <Label layoutX="82.0" layoutY="19.0" text="Repuestos">
+         <font>
+            <Font name="AppleGothic Regular" size="36.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="40.0" fitWidth="37.0" layoutX="27.0" layoutY="27.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../icons/iconfinder_back-alt_134226.png" />
+         </image>
+      </ImageView>
+      <JFXTextField layoutX="329.0" layoutY="103.0" AnchorPane.rightAnchor="340.0" AnchorPane.topAnchor="100.0" />
+      <JFXTextField layoutX="329.0" layoutY="169.0" AnchorPane.rightAnchor="340.0" AnchorPane.topAnchor="160.0" />
+      <JFXTextField layoutX="329.0" layoutY="233.0" AnchorPane.rightAnchor="340.0" AnchorPane.topAnchor="220.0" />
+      <JFXTextField layoutX="329.0" layoutY="294.0" AnchorPane.rightAnchor="340.0" AnchorPane.topAnchor="280.0" />
+      <JFXTextField layoutX="336.0" layoutY="363.0" AnchorPane.rightAnchor="340.0" AnchorPane.topAnchor="340.0" />
+      <Label layoutX="145.0" layoutY="107.0" text="ID:" AnchorPane.leftAnchor="145.0" AnchorPane.topAnchor="100.0">
+         <font>
+            <Font name="AppleGothic Regular" size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="145.0" layoutY="168.0" text="Nombre:" AnchorPane.leftAnchor="145.0" AnchorPane.topAnchor="160.0">
+         <font>
+            <Font name="AppleGothic Regular" size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="145.0" layoutY="232.0" text="Marca" AnchorPane.leftAnchor="145.0" AnchorPane.topAnchor="220.0">
+         <font>
+            <Font name="AppleGothic Regular" size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="145.0" layoutY="294.0" text="Modelo" AnchorPane.leftAnchor="145.0" AnchorPane.topAnchor="280.0">
+         <font>
+            <Font name="AppleGothic Regular" size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="145.0" layoutY="360.0" text="Existencias" AnchorPane.leftAnchor="145.0" AnchorPane.topAnchor="340.0">
+         <font>
+            <Font name="AppleGothic Regular" size="20.0" />
+         </font>
+      </Label>
+      <JFXButton fx:id="OkBtn" buttonType="RAISED" layoutX="348.0" layoutY="503.0" prefHeight="38.0" prefWidth="121.0" ripplerFill="#27ae60" style="-fx-background-radius: 100; -fx-background-color: #2ecc71#2ecc71;" text="OK">
+         <font>
+            <Font name="AppleGothic Regular" size="18.0" />
+         </font>
+      </JFXButton>
+      <JFXRadioButton layoutX="650.0" layoutY="163.0" text="Agregar" AnchorPane.leftAnchor="620.0">
+         <font>
+            <Font name="AppleGothic Regular" size="18.0" />
+         </font>
+         <toggleGroup>
+            <ToggleGroup fx:id="GrupoR" />
+         </toggleGroup>
+      </JFXRadioButton>
+      <JFXRadioButton layoutX="650.0" layoutY="207.0" text="Editar" toggleGroup="$GrupoR" AnchorPane.leftAnchor="620.0">
+         <font>
+            <Font name="AppleGothic Regular" size="18.0" />
+         </font>
+      </JFXRadioButton>
+      <JFXRadioButton layoutX="651.0" layoutY="257.0" text="Eliminar" toggleGroup="$GrupoR" AnchorPane.leftAnchor="620.0">
+         <font>
+            <Font name="AppleGothic Regular" size="18.0" />
+         </font>
+      </JFXRadioButton>
+      <JFXRadioButton layoutX="650.0" layoutY="306.0" text="Buscar" toggleGroup="$GrupoR" AnchorPane.leftAnchor="620.0">
+         <font>
+            <Font name="AppleGothic Regular" size="18.0" />
+         </font>
+      </JFXRadioButton>
+      <JFXTextField layoutX="330.0" layoutY="432.0" AnchorPane.rightAnchor="340.0" AnchorPane.topAnchor="400.0" />
+      <Label layoutX="164.0" layoutY="429.0" text="Precio             Q." AnchorPane.leftAnchor="145.0" AnchorPane.topAnchor="400.0">
+         <font>
+            <Font name="AppleGothic Regular" size="20.0" />
+         </font>
+      </Label>
+      <JFXButton fx:id="CargarBtn" buttonType="RAISED" layoutX="680.0" layoutY="24.0" onAction="#CargarArchivo" prefHeight="30.0" prefWidth="135.0" ripplerFill="#2980b9" style="-fx-background-radius: 100; -fx-background-color: #3498db#3498db;" text="Cargar Archivo">
+         <font>
+            <Font name="AppleGothic Regular" size="14.0" />
+         </font>
+      </JFXButton>
+   </children>
+</AnchorPane>

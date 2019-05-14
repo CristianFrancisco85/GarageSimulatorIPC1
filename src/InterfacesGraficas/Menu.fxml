@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="577.0" prefWidth="935.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="InterfacesGraficas.MenuController">
+   <children>
+      <JFXButton layoutX="80.0" layoutY="212.0" ripplerFill="#3498db" text="Empleados">
+         <font>
+            <Font name="AppleGothic Regular" size="24.0" />
+         </font>
+      </JFXButton>
+      <JFXButton layoutX="396.0" layoutY="211.0" ripplerFill="#3498db" text="Repuestos">
+         <font>
+            <Font name="AppleGothic Regular" size="24.0" />
+         </font>
+      </JFXButton>
+      <JFXButton layoutX="53.0" layoutY="451.0" ripplerFill="#3498db" text="Clientes y Autos">
+         <font>
+            <Font name="AppleGothic Regular" size="24.0" />
+         </font>
+      </JFXButton>
+      <JFXButton layoutX="693.0" layoutY="208.0" ripplerFill="#3498db" text="Servicios">
+         <font>
+            <Font name="AppleGothic Regular" size="24.0" />
+         </font>
+      </JFXButton>
+      <JFXButton layoutX="358.0" layoutY="452.0" ripplerFill="#3498db" text="Progreso de Autos">
+         <font>
+            <Font name="AppleGothic Regular" size="24.0" />
+         </font>
+      </JFXButton>
+      <JFXButton layoutX="692.0" layoutY="452.0" ripplerFill="#3498db" text="Reportes">
+         <font>
+            <Font name="AppleGothic Regular" size="24.0" />
+         </font>
+      </JFXButton>
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="76.0" layoutY="50.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../icons/iconfinder_146-man-mechanic-2_3099399.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="116.0" fitWidth="128.0" layoutX="420.0" layoutY="79.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../icons/iconfinder_tools-fix-repair-wrench-mechanic_3802001.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="122.0" fitWidth="121.0" layoutX="694.0" layoutY="70.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../icons/iconfinder_Car-Accessories_8_2178886.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="78.0" layoutY="284.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../icons/iconfinder_154-man-office-worker-2_3099407.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="406.0" layoutY="284.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../icons/iconfinder_BT_c3tool_905663.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="126.0" fitWidth="132.0" layoutX="695.0" layoutY="309.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../icons/iconfinder_8-Medical_report_3213271.png" />
+         </image>
+      </ImageView>
+      <JFXButton layoutX="803.0" layoutY="19.0" text="CERRAR SESION">
+         <font>
+            <Font name="AppleGothic Regular" size="13.0" />
+         </font>
+      </JFXButton>
+   </children>
+</AnchorPane>

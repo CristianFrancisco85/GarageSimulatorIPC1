@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXPasswordField?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane id="AnchorPane" prefHeight="575.0" prefWidth="445.0" style="-fx-background-color: #ffffff;" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/11.0.1" fx:controller="InterfacesGraficas.LoginController">
+   <children>
+      <JFXButton layoutX="230.0" layoutY="371.0" prefHeight="36.0" prefWidth="98.0" ripplerFill="#3498db" style="-fx-background-radius: 100; -fx-background-color: #ecf0f1#ecf0f1;" text="Login" />
+      <JFXPasswordField focusColor="#3498db" layoutX="175.0" layoutY="310.0" prefHeight="27.0" prefWidth="208.0" unFocusColor="BLACK" />
+      <JFXTextField focusColor="#3498db" layoutX="175.0" layoutY="267.0" prefHeight="27.0" prefWidth="208.0" unFocusColor="BLACK" />
+      <ImageView fitHeight="122.0" fitWidth="119.0" layoutX="48.0" layoutY="79.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../icons/iconfinder_user_male4_172628.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="56.0" layoutY="286.0" text="Usuario:" />
+      <Label layoutX="56.0" layoutY="329.0" text="Constraseña:" />
+      <Label layoutX="200.0" layoutY="99.0" prefHeight="27.0" prefWidth="147.0" text="TALLER">
+         <font>
+            <Font name="AppleGothic Regular" size="34.0" />
+         </font>
+      </Label>
+      <Label layoutX="200.0" layoutY="148.0" prefHeight="42.0" prefWidth="208.0" text="SIMULATOR">
+         <font>
+            <Font name="AppleGothic Regular" size="34.0" />
+         </font>
+      </Label>
+      <Label layoutX="337.0" layoutY="546.0" text="\@CristianMeoño">
+         <font>
+            <Font size="12.0" />
+         </font>
+      </Label>
+      <JFXButton layoutX="404.0" layoutY="14.0" style="-fx-background-radius: 100; -fx-background-color: #e74c3c#e74c3c;" text="X" />
+      <JFXButton layoutX="174.0" layoutY="453.0" prefHeight="36.0" prefWidth="98.0" ripplerFill="#3498db" style="-fx-background-radius: 100; -fx-background-color: #ecf0f1#ecf0f1;" text="Registrarse" />
+      <Label layoutX="48.0" layoutY="462.0" text="¿Eres nuevo?" />
+   </children>
+</AnchorPane>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane id="AnchorPane" prefHeight="555.0" prefWidth="834.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/11.0.1" fx:controller="InterfacesGraficas.MenuClienteController">
+   <children>
+      <JFXButton layoutX="137.0" layoutY="193.0" ripplerFill="#3498db" text="Registrar Auto">
+         <font>
+            <Font name="AppleGothic Regular" size="24.0" />
+         </font>
+      </JFXButton>
+      <JFXButton layoutX="525.0" layoutY="189.0" ripplerFill="#3498db" text="Ver Autos">
+         <font>
+            <Font name="AppleGothic Regular" size="24.0" />
+         </font>
+      </JFXButton>
+      <JFXButton layoutX="141.0" layoutY="441.0" ripplerFill="#3498db" text="Ver Progreso">
+         <font>
+            <Font name="AppleGothic Regular" size="24.0" />
+         </font>
+      </JFXButton>
+      <JFXButton layoutX="540.0" layoutY="438.0" ripplerFill="#3498db" text="Facturas">
+         <font>
+            <Font name="AppleGothic Regular" size="24.0" />
+         </font>
+      </JFXButton>
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="160.0" layoutY="29.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../icons/iconfinder_sign-add_299068.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="526.0" layoutY="42.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../icons/iconfinder_BT_c3side_905664.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="145.0" layoutY="272.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../icons/iconfinder_BT_c3tool_905663.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="138.0" fitWidth="147.0" layoutX="538.0" layoutY="282.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../icons/iconfinder_bill_416404.png" />
+         </image>
+      </ImageView>
+      <JFXButton layoutX="686.0" layoutY="14.0" text="CERRAR SESION">
+         <font>
+            <Font name="AppleGothic Regular" size="14.0" />
+         </font>
+      </JFXButton>
+   </children>
+</AnchorPane>
